@@ -1,0 +1,2 @@
+* If you want to change the maximum output voltage it is necessary that the output is switched off, otherwise it will not allow to be changed.
+* The option to change the language from Chinese to English language is found in the SYSTEM/General Information menu.
