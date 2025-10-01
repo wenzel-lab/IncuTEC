@@ -11,22 +11,22 @@ adhesive liquid between the plates you want to join, waiting for it to bond befo
 are bonded, use a rod to add the previously diluted acrylic to each of the joints. Ensure that the mixture covers each section of the
 joints to prevent leaks.
 
-![](images/AssemblyImages/P01.jpg)
-![](images/AssemblyImages/P02.jpg)
-![](images/AssemblyImages/P03.jpg)
+![](images/AssemblyImages/p01.jpg)
+![](images/AssemblyImages/p02.jpg)
+![](images/AssemblyImages/p03.jpg)
 
 
 ## Preparation of the screw cubes {pagestep}
 Place the nuts in the hexagonal holes according to the hole dimensions. Using a syringe,
 inject resin into the three notches for each nut. Apply UV light to cure the resin and secure the nuts in place.
 
-![](images/AssemblyImages/P04.jpg)
-![](images/AssemblyImages/P05.jpg)
-![](images/AssemblyImages/P07.jpg)
+![](images/AssemblyImages/p04.jpg)
+![](images/AssemblyImages/p05.jpg)
+![](images/AssemblyImages/p07.jpg)
 
 >! Be careful that the resin applied is only injected into the indicated notches. Avoid using excess resin that could affect the nut thread.
 >!
->! ![](images/AssemblyImages/P06.jpg)
+>! ![](images/AssemblyImages/p06.jpg)
 
 ## Gluing the screw cubes {pagestep}
 Apply glue suitable for gluing screw cubes to acrylic walls (such as cyanoacrylate). Cover the contact surface so that the product does not affect the nuts. Position the block in the correct place, applying pressure while gluing it properly.
