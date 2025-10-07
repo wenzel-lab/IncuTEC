@@ -7,9 +7,7 @@
 ## Gluing and sealing walls {pagestep}
 
 Position the plates accordingly, ensuring a 90° angle between them.Using the syringe, inject the
-adhesive liquid between the plates you want to join, waiting for it to bond before moving on to the next plate. Once all the plates
-are bonded, use a rod to add the previously diluted acrylic to each of the joints. Ensure that the mixture covers each section of the
-joints to prevent leaks.
+adhesive liquid between the plates you want to join, waiting for it to bond before moving on to the next plate. Once all the plates are bonded, use a rod to add the previously diluted acrylic to each of the joints. Ensure that the mixture covers each section of the joints to prevent leaks.
 
 ![](images/AssemblyImages/p01.jpg)
 ![](images/AssemblyImages/p02.jpg)
@@ -29,7 +27,7 @@ inject resin into the three notches for each nut. Apply UV light to cure the res
 
 
 ## Gluing the screw cubes {pagestep}
-Apply glue suitable for gluing screw cubes to acrylic walls (such as cyanoacrylate). Cover the contact surface so that the product does not affect the nuts. Position the block in the correct place, applying pressure while gluing it properly.
+Apply glue suitable for gluing screw cubes to acrylic walls (such as cyanoacrylate). Cover the contact surface so that the product does not affect the nuts. Position the block in the correct place, applying pressure while gluing it properly. Parts: [Screw cube 4 mm]{qty:4,cat:printed}
 
 ![](images/AssemblyImages/p08.jpg)
 ![](images/AssemblyImages/p09.jpg)
