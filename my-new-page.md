@@ -6,8 +6,7 @@
 
 ## Gluing and sealing walls {pagestep}
 
-Position the plates accordingly, ensuring a 90° angle between them.Using the syringe, inject the
-adhesive liquid between the plates you want to join, waiting for it to bond before moving on to the next plate. Once all the plates are bonded, use a rod to add the previously diluted acrylic to each of the joints. Ensure that the mixture covers each section of the joints to prevent leaks.
+Position the plates accordingly, ensuring a 90° angle between them. Using the [syringe]{qty:1, cat:tool}, inject the [acrylic adhesive liquid]{qty:some, cat:tool} between the plates you want to join, waiting for it to bond before moving on to the next plate. Once all the plates are bonded, use a [rod][glass rod]{qty:1, cat:tool} to add the previously diluted acrylic to each of the joints. Ensure that the mixture covers each section of the joints to prevent leaks.
 
 ![](images/AssemblyImages/p01.jpg)
 ![](images/AssemblyImages/p02.jpg)
@@ -15,8 +14,7 @@ adhesive liquid between the plates you want to join, waiting for it to bond befo
 
 
 ## Preparation of the screw cubes {pagestep}
-Place the nuts in the hexagonal holes according to the hole dimensions. Using a syringe,
-inject resin into the three notches for each nut. Apply UV light to cure the resin and secure the nuts in place.  Parts: [Screw cube 4 mm](3DModels/ScrewCube_4mm.stl){qty:6}(3DModels/ScrewCube_4mm.stl){previewpage}
+Place the [M4][M4 nut]{qty:6}, [M5][M5 nut]{qty:4} and [M6][M6 nut]{qty:6} nuts in the hexagonal holes according to the hole dimensions. Using a [syringe], inject [resin][UV resin]{qty:some,cat:tool} into the three notches for each nut. Apply [UV light][UV flashlight]{qty:1, cat:tool} to cure the resin and secure the nuts in place.  Parts: [Screw cube 4 mm](3DModels/ScrewCube_4mm.stl){qty:6}{previewpage}, [Screw cube 5 mm](3DModels/ScrewCube_5mm.stl){qty:4}{previewpage}, [Screw cube 6 mm](3DModels/ScrewCube_6mm.stl){qty:6}{previewpage}, [Screw cube lock 1](3DModels/ScrewCubeLock1.stl){qty:2}{previewpage}, [Screw cube lock 2](3DModels/ScrewCubeLock2.stl){qty:2}{previewpage}.
 
 ![](images/AssemblyImages/p04.jpg)
 ![](images/AssemblyImages/p05.jpg)
@@ -27,7 +25,7 @@ inject resin into the three notches for each nut. Apply UV light to cure the res
 
 
 ## Gluing the screw cubes {pagestep}
-Apply glue suitable for gluing screw cubes to acrylic walls (such as cyanoacrylate). Cover the contact surface so that the product does not affect the nuts. Position the block in the correct place, applying pressure while gluing it properly.
+Apply [glue]{qty: some, cat:tool} suitable for gluing screw cubes to acrylic walls (such as cyanoacrylate). Cover the contact surface so that the product does not affect the nuts. Position the block in the correct place, applying pressure while gluing it properly. Parts: [Screw cube 4 mm], [Screw cube 5 mm], [Screw cube 6 mm], [Screw cube lock 1], [Screw cube lock 2], [Gas cube](3DModels/GasCube.stl){qty:1}{previewpage}
 
 ![](images/AssemblyImages/p08.jpg)
 ![](images/AssemblyImages/p09.jpg)
@@ -39,7 +37,7 @@ Apply glue suitable for gluing screw cubes to acrylic walls (such as cyanoacryla
 
 
 ## Sealing screw cubes and other attached parts {pagestep}
-Using a syringe, apply resin around the perimeter of the screw cube so that the product is visible continuously. Apply UV light to cure the resin, ensuring that every part of the joint is covered.
+Using a [syringe], apply [resin][UV resin] around the perimeter of the screw cube so that the product is visible continuously. Apply [UV light][UV flashlight] to cure the resin, ensuring that every part of the joint is covered.
 
 ![](images/AssemblyImages/p12.jpg)
 ![](images/AssemblyImages/p15.jpg)
@@ -57,7 +55,7 @@ Place the different elements in their corresponding positions and secure them wi
 
 
 ## Preparation and installation of cables {pagestep}
-Using a sharp tool, make cuts in the cable pass-through rubber for each of the cables that will enter the incubator. Pass each cable through the rubber. Mount the rubber with the corresponding frame and tighten the bolts.
+Using a [sharp tool][scalpel]{qty:1,cat:tool}, make cuts in the cable pass-through rubber for each of the cables that will enter the incubator. Pass each cable through the rubber. Mount the rubber with the corresponding frame and tighten the bolts.
 
 ![](images/AssemblyImages/p18.jpg)
 ![](images/AssemblyImages/p21.jpg)
