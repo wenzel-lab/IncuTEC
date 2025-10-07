@@ -16,7 +16,7 @@ adhesive liquid between the plates you want to join, waiting for it to bond befo
 
 ## Preparation of the screw cubes {pagestep}
 Place the nuts in the hexagonal holes according to the hole dimensions. Using a syringe,
-inject resin into the three notches for each nut. Apply UV light to cure the resin and secure the nuts in place.
+inject resin into the three notches for each nut. Apply UV light to cure the resin and secure the nuts in place.  Parts: [Screw cube 4 mm](3DModels/ScrewCube_4mm.stl){qty:6}(3DModels/ScrewCube_4mm.stl){previewpage}
 
 ![](images/AssemblyImages/p04.jpg)
 ![](images/AssemblyImages/p05.jpg)
@@ -27,7 +27,7 @@ inject resin into the three notches for each nut. Apply UV light to cure the res
 
 
 ## Gluing the screw cubes {pagestep}
-Apply glue suitable for gluing screw cubes to acrylic walls (such as cyanoacrylate). Cover the contact surface so that the product does not affect the nuts. Position the block in the correct place, applying pressure while gluing it properly. Parts: [Screw cube 4 mm]{qty:4,cat:printed}
+Apply glue suitable for gluing screw cubes to acrylic walls (such as cyanoacrylate). Cover the contact surface so that the product does not affect the nuts. Position the block in the correct place, applying pressure while gluing it properly.
 
 ![](images/AssemblyImages/p08.jpg)
 ![](images/AssemblyImages/p09.jpg)
