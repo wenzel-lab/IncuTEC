@@ -6,7 +6,7 @@
 
 ## Gluing and sealing walls {pagestep}
 
-Position the plates accordingly, ensuring a 90° angle between them. Using the [syringe]{qty:1, cat:tool}, inject the [acrylic adhesive liquid]{qty:some, cat:tool} between the plates you want to join, waiting for it to bond before moving on to the next plate. Once all the plates are bonded, use a [rod][glass rod]{qty:1, cat:tool} to add the previously diluted acrylic to each of the joints. Ensure that the mixture covers each section of the joints to prevent leaks.
+Position the plates accordingly, ensuring a 90° angle between them. Using the [syringe]{qty:1, cat:tool}, inject the [acrylic adhesive liquid]{qty:some, cat:tool} between the plates you want to join, waiting for it to bond before moving on to the next plate. Once all the plates are bonded, use a [rod][glass rod]{qty:1, cat:tool} to add the previously diluted acrylic to each of the joints. Ensure that the mixture covers each section of the joints to prevent leaks. Parts: [Base](3DModels/Base.stl){qty:1}{previewpage}, [Base back](3DModels/BaseBack.stl){qty:1}{previewpage}, [Base front](3DModels/BaseFront.stl){qty:1}{previewpage}, [Base side 1](3DModels/BaseSide1.stl){qty:1}{previewpage}, [Base side 2](3DModels/BaseSide2.stl){qty:1}{previewpage}, [Cover](3DModels/Cover.stl){qty:1}{previewpage}, [Cover side 1](3DModels/CoverSide1.stl){qty:1}{previewpage}, [Cover side 2](3DModels/CoverSide2.stl){qty:1}{previewpage}, [Cover back](3DModels/CoverFrontBack.stl){qty:2}{previewpage}, [Seal frame](3DModels/SealFrame.stl){qty:2}{previewpage}.
 
 ![](images/AssemblyImages/p01.jpg)
 ![](images/AssemblyImages/p02.jpg)
@@ -14,7 +14,7 @@ Position the plates accordingly, ensuring a 90° angle between them. Using the [
 
 
 ## Preparation of the screw cubes {pagestep}
-Place the [M4][M4 nut]{qty:6}, [M5][M5 nut]{qty:4} and [M6][M6 nut]{qty:6} nuts in the hexagonal holes according to the hole dimensions. Using a [syringe], inject [resin][UV resin]{qty:some,cat:tool} into the three notches for each nut. Apply [UV light][UV flashlight]{qty:1, cat:tool} to cure the resin and secure the nuts in place.  Parts: [Screw cube 4 mm](3DModels/ScrewCube_4mm.stl){qty:6}{previewpage}, [Screw cube 5 mm](3DModels/ScrewCube_5mm.stl){qty:4}{previewpage}, [Screw cube 6 mm](3DModels/ScrewCube_6mm.stl){qty:6}{previewpage}, [Screw cube lock 1](3DModels/ScrewCubeLock1.stl){qty:2}{previewpage}, [Screw cube lock 2](3DModels/ScrewCubeLock2.stl){qty:2}{previewpage}.
+Place the [M4][M4 nut]{qty:6}, [M5][M5 nut]{qty:14} and [M6][M6 nut]{qty:6} nuts in the hexagonal holes according to the hole dimensions. Using a [syringe], inject [resin][UV resin]{qty:some,cat:tool} into the three notches for each nut. Apply [UV light][UV flashlight]{qty:1, cat:tool} to cure the resin and secure the nuts in place.  Parts: [Screw cube 4 mm](3DModels/ScrewCube_4mm.stl){qty:6}{previewpage}, [Screw cube 5 mm](3DModels/ScrewCube_5mm.stl){qty:4}{previewpage}, [Screw cube 6 mm](3DModels/ScrewCube_6mm.stl){qty:6}{previewpage}, [Screw cube lock 1](3DModels/ScrewCubeLock1.stl){qty:2}{previewpage}, [Screw cube lock 2](3DModels/ScrewCubeLock2.stl){qty:2}{previewpage}.
 
 ![](images/AssemblyImages/p04.jpg)
 ![](images/AssemblyImages/p05.jpg)
@@ -48,7 +48,7 @@ Using a [syringe], apply [resin][UV resin] around the perimeter of the screw cub
 
 
 ## Positioning of peripheral elements. {pagestep}
-Place the different elements in their corresponding positions and secure them with the appropriate bolts (M4, M5, and M6).
+Place the different elements in their corresponding positions and secure them with the appropriate bolts ([M4][M4 bolt]{qty:6}, [M5][M5 bolt]{qty:14}, and [M6][M6 bolt]{qty:6}).
 
 ![](images/AssemblyImages/p16.jpg)
 ![](images/AssemblyImages/p17.jpg)
@@ -66,7 +66,7 @@ Using a [sharp tool][scalpel]{qty:1,cat:tool}, make cuts in the cable pass-throu
 
 
 ## Closing the incubator {pagestep}
-Place the rubber gasket on the frame of the incubator base. Place the lid on the gasket and close the incubator using the quick-release clamps.
+Place the [rubber gasket]{qty:1} on the frame of the incubator base. Place the lid on the gasket and close the incubator using the quick-release clamps.
 
 ![](images/AssemblyImages/p22.jpg)
 ![](images/AssemblyImages/p23.jpg)
