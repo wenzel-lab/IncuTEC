@@ -5,6 +5,26 @@ The incubator is designed to hold the SQUID microscope (https://github.com/wenze
 
 In terms of gas controll there are already some open source hardware designs available that can serve as a basis and inspiration. In terms of electronics we should base ourselves on this design that will also form the basis of our anaerobic glove-box in the future https://www.sciencedirect.com/science/article/pii/S2468067221000675. Further inspirations are https://www.sciencedirect.com/science/article/pii/S2468067222000207#f0010
 
+## Wenzel Lab user guide
+
+Start-up procedure:
+* Switch on the mains power switch on the cable at the back of the controller - remember that the Raman laser driver is also powered by the same controller/power-supply.
+* The temperature set-point and ON/OFF can be set from the menu (white-sub-box with round button)
+* Gas valve controll can be activated  "high" and dis-activated "low" from the small slider button in the controller - the gas percentage can only be changed in the microcontroller setting (requires USB connection)
+* Open Gas bottle main valve to start CO2 gas flow (never forget to turn off after experiment!)
+  
+Shut-down procedure
+* close gas bottle main valve (no need to touch the regulator)
+* vent CO2 with the run valve on the incubator side - located close to the inlet
+* switch controller slider button for gas controll to "low"
+* turn temperature controller off
+* turn off main powersupply switch
+
+Points to clarify:
+* temperature ramp speed - controlled by controller digital settings in the interface and by voltage provided to the controller board (12V vs 24V?)
+* we need 5% - how far can we currently regulate?
+* Buy CO2 sensor for room
+
 ## Bill of Materials
 * TEC driver/controller http://yexian.com/product/tcm_standard.htm with PID auto-tuning (can be purched from Heidstar)
 * Powerful air-air TEC stack with heatsinks and fans https://www.mouser.cl/ProductDetail/Laird-Thermal-Systems/387000612?qs=uwxL4vQweFP51dqtRIyGCw%3D%3D
