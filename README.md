@@ -1,35 +1,103 @@
 # IncuTEC
-Thermoelectric cooling (Peltier stack) based incubator design with gas controll. The temperature controll assembly is inspired by the incubators in the Prakash Lab and expanded to futher uses and gas controll.
 
-The incubator is designed to hold the SQUID microscope (https://github.com/wenzel-lab/SQUID-bioimaging-platform) or optical instruments with a similar footprint. Here you can find an example of such an enclosure https://forum.squid-imaging.org/t/assembly-guide-for-inverted-system-with-the-60-mm-x-60-mm-stage/51. 
+IncuTEC is a custom microscope incubator that uses a thermoelectric
+(Peltier) heating and cooling system with CO₂ control. It is designed for
+the [SQUID microscope](https://github.com/wenzel-lab/SQUID-bioimaging-platform)
+and other optical instruments with a similar footprint.
 
-In terms of gas controll there are already some open source hardware designs available that can serve as a basis and inspiration. In terms of electronics we should base ourselves on this design that will also form the basis of our anaerobic glove-box in the future https://www.sciencedirect.com/science/article/pii/S2468067221000675. Further inspirations are https://www.sciencedirect.com/science/article/pii/S2468067222000207#f0010
+![IncuTEC enclosure around a SQUID microscope](images/example-squid-enclosure.jpg)
 
-## Wenzel Lab user guide
+## Documentation
 
-Start-up procedure:
-* Switch on the mains power switch on the cable at the back of the controller - remember that the Raman laser driver is also powered by the same controller/power-supply.
-* The temperature set-point and ON/OFF can be set from the menu (white-sub-box with round button)
-* Gas valve controll can be activated  "high" and dis-activated "low" from the small slider button in the controller - the gas percentage can only be changed in the microcontroller setting (requires USB connection)
-* Open Gas bottle main valve to start CO2 gas flow (never forget to turn off after experiment!)
-  
-Shut-down procedure
-* close gas bottle main valve (no need to touch the regulator)
-* vent CO2 with the run valve on the incubator side - located close to the inlet
-* switch controller slider button for gas controll to "low"
-* turn temperature controller off
-* turn off main powersupply switch
+### Start here
 
-Points to clarify:
-* temperature ramp speed - controlled by controller digital settings in the interface and by voltage provided to the controller board (12V vs 24V?)
-* we need 5% - how far can we currently regulate?
-* Buy CO2 sensor for room
+| Document | What it contains |
+| --- | --- |
+| [Assembly guide](assembly-guide.md) | Illustrated, step-by-step enclosure assembly instructions |
+| [Bilingual assembly instructions (Word)](docs/incutec-assembly-instructions-bilingual.docx) | Spanish and English assembly instructions in a downloadable document |
+| [Pneumatic system diagram](docs/incutec-pneumatic-system-diagram.pdf) | CO₂ tank, regulator, valves, gauges, and incubator connections |
+| [UIM V2 user manual (English)](docs/uim-v2-user-manual-en.pdf) | Operation and configuration of the temperature controller display |
+| [Temperature control module FAQ (English)](docs/tcm-temperature-control-module-faq-en.pdf) | Initial configuration and troubleshooting for the TCM controller |
+| [UIM display module notes](docs/uim-display-module-notes.md) | Project-specific notes about language and maximum output voltage |
 
-## Bill of Materials
-* TEC driver/controller http://yexian.com/product/tcm_standard.htm with PID auto-tuning (can be purched from Heidstar)
-* Powerful air-air TEC stack with heatsinks and fans https://www.mouser.cl/ProductDetail/Laird-Thermal-Systems/387000612?qs=uwxL4vQweFP51dqtRIyGCw%3D%3D
+### Temperature-control references
 
-* The enclosure could be based just on acrylics or on styrofoam (2" thick boxes like these https://www.uline.com/BL_2157/Insulated-Shipping-Kits)
+- [TCM temperature control module overview (English)](docs/tcm-temperature-control-module-overview-en.pdf)
+- [UIM universal display module overview (English)](docs/uim-universal-display-module-overview-en.pdf)
+- [TCM parallel operation application note (English)](docs/tcm-parallel-operation-application-note-en.pdf)
+- [Alternate translation of the TCM parallel operation application note](docs/tcm-parallel-operation-application-note-en-alternate.pdf)
+- [Laird: heating and cooling of incubator chambers (2020)](docs/laird-incubator-heating-cooling-application-note-2020.pdf)
+- [Laird SAA-170-24-22 thermoelectric cooler datasheet](docs/laird-saa-170-24-22-tec-datasheet.pdf)
 
-## Design criteria
-Initially, the chamber will be designed in two combinable self-sealing parts. A bottom part to incorporate all the feet, cables, etc, and a mobile top part that can be placed over the setup onto the bottom part to seal the chamber. It has a temperature controll that should work precisely at least in the range of 4 degree Celsius to 40 degree celsius (normally it will be used at 37 degree C). Initially we cant to contoll only the Co2 gas addition to normal air to use it for human cell culture and micro-anaeropic pathogens. The chaber shall eb extendable towards an anaerobic solution.
+### Sensor datasheets
+
+- [Sensirion SCD30 CO₂, humidity, and temperature sensor](docs/SensorDatasheets/sensirion-scd30-co2-sensor-datasheet.pdf)
+- [Winsen ME2-O2 oxygen sensor](docs/SensorDatasheets/winsen-me2-o2-sensor-manual.pdf)
+- [Seeed Grove SHT35 temperature and humidity sensor](docs/SensorDatasheets/seeed-grove-sht35-temperature-humidity-sensor-datasheet.pdf)
+- [Seeed Grove MQ2 gas sensor](docs/SensorDatasheets/seeed-grove-mq2-gas-sensor-datasheet.pdf)
+- [Seeed Grove light sensor v1.2](docs/SensorDatasheets/seeed-grove-light-sensor-v1.2-datasheet.pdf)
+- [Seeed Grove real-time clock](docs/SensorDatasheets/seeed-grove-rtc-user-manual.pdf)
+
+## Wenzel Lab operating guide
+
+> [!CAUTION]
+> CO₂ can displace oxygen. Use the incubator only in a properly ventilated
+> space, secure the gas cylinder, and follow your institution's compressed-gas
+> safety procedures.
+
+### Start-up
+
+1. Check that the pneumatic connections are secure and that the run/vent valve
+   on the incubator is in the correct position.
+2. Switch on the mains power at the back of the controller. The Raman laser
+   driver is powered by the same controller/power supply.
+3. Set the target temperature and switch temperature control on using the UIM
+   display (the white box with the round button).
+4. Open the main valve on the CO₂ cylinder.
+5. Move the gas-control slider on the controller to **HIGH**. The target CO₂
+   percentage can currently be changed only in the microcontroller settings
+   over USB.
+6. Monitor temperature and CO₂ until both readings are stable before beginning
+   an experiment.
+
+### Shut-down
+
+1. Close the main valve on the CO₂ cylinder; the regulator does not need to be
+   adjusted.
+2. Vent the remaining CO₂ using the run/vent valve near the incubator inlet.
+3. Move the gas-control slider to **LOW**.
+4. Switch temperature control off using the UIM display.
+5. Turn off the main power-supply switch.
+
+## Project resources
+
+- [3D models](3DModels/)
+- [Control electronics, code, and schematics](control/)
+- [Assembly images](images/AssemblyImages/)
+- [SQUID inverted microscope enclosure example](https://forum.squid-imaging.org/t/assembly-guide-for-inverted-system-with-the-60-mm-x-60-mm-stage/51)
+
+## Design overview
+
+The chamber consists of two self-sealing parts: a bottom section that
+accommodates the microscope feet and cables, and a removable top section that
+seals against the base. The target operating range is approximately 4–40 °C,
+with 37 °C as the typical setpoint. The current gas system adds CO₂ to ambient
+air for mammalian cell culture and microaerobic applications; the design is
+intended to remain extensible toward anaerobic operation.
+
+The temperature-control assembly is inspired by incubator designs from the
+Prakash Lab and adapted for additional uses and gas control.
+
+## Bill of materials highlights
+
+- [Yexian TCM Standard temperature controller](http://yexian.com/product/tcm_standard.htm)
+  with PID auto-tuning
+- [Laird SAA-170-24-22 air-to-air thermoelectric cooler](https://www.mouser.cl/ProductDetail/Laird-Thermal-Systems/387000612?qs=uwxL4vQweFP51dqtRIyGCw%3D%3D)
+- Acrylic sheet or rigid insulating foam for the enclosure
+
+## Open items
+
+- Characterize the temperature ramp speed for 12 V and 24 V controller supply
+  configurations.
+- Validate the achievable CO₂ control range around the 5% setpoint.
+- Install an independent room CO₂ monitor.

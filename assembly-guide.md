@@ -1,6 +1,7 @@
+# IncuTEC assembly guide
+
 [M4x10 screws]:Parts.yaml#M4x10PanSteel
 [No. 2 Phillips screwdriver]:Parts.yaml#Screwdriver_Philips_No2
-# Assembly Instructions
 
 {{BOM}}
 
@@ -8,17 +9,17 @@
 
 Position the plates accordingly, ensuring a 90° angle between them. Using the [syringe]{qty:1, cat:tool}, inject the [acrylic adhesive liquid]{qty:some, cat:tool} between the plates you want to join, waiting for it to bond before moving on to the next plate. Once all the plates are bonded, use a [rod][glass rod]{qty:1, cat:tool} to add the previously diluted acrylic to each of the joints. Ensure that the mixture covers each section of the joints to prevent leaks. Parts: [Base](3DModels/Base.stl){qty:1}{previewpage}, [Base back](3DModels/BaseBack.stl){qty:1}{previewpage}, [Base front](3DModels/BaseFront.stl){qty:1}{previewpage}, [Base side 1](3DModels/BaseSide1.stl){qty:1}{previewpage}, [Base side 2](3DModels/BaseSide2.stl){qty:1}{previewpage}, [Cover](3DModels/Cover.stl){qty:1}{previewpage}, [Cover side 1](3DModels/CoverSide1.stl){qty:1}{previewpage}, [Cover side 2](3DModels/CoverSide2.stl){qty:1}{previewpage}, [Cover back](3DModels/CoverFrontBack.stl){qty:2}{previewpage}, [Seal frame](3DModels/SealFrame.stl){qty:2}{previewpage}.
 
-![](images/AssemblyImages/p01.jpg)
-![](images/AssemblyImages/p02.jpg)
-![](images/AssemblyImages/p03.jpg)
+![](images/AssemblyImages/P01.jpg)
+![](images/AssemblyImages/P02.jpg)
+![](images/AssemblyImages/P03.jpg)
 
 
 ## Preparation of the screw cubes {pagestep}
 Place the [M4][M4 nut]{qty:6}, [M5][M5 nut]{qty:14} and [M6][M6 nut]{qty:6} nuts in the hexagonal holes according to the hole dimensions. Using a [syringe], inject [resin][UV resin]{qty:some,cat:tool} into the three notches for each nut. Apply [UV light][UV flashlight]{qty:1, cat:tool} to cure the resin and secure the nuts in place.  Parts: [Screw cube 4 mm](3DModels/ScrewCube_4mm.stl){qty:6}{previewpage}, [Screw cube 5 mm](3DModels/ScrewCube_5mm.stl){qty:4}{previewpage}, [Screw cube 6 mm](3DModels/ScrewCube_6mm.stl){qty:6}{previewpage}, [Screw cube lock 1](3DModels/ScrewCubeLock1.stl){qty:2}{previewpage}, [Screw cube lock 2](3DModels/ScrewCubeLock2.stl){qty:2}{previewpage}.
 
-![](images/AssemblyImages/p04.jpg)
-![](images/AssemblyImages/p05.jpg)
-![](images/AssemblyImages/p06.jpg)
+![](images/AssemblyImages/P04.jpg)
+![](images/AssemblyImages/P05.jpg)
+![](images/AssemblyImages/P06.jpg)
 ![](images/AssemblyImages/p07.jpg)
 
 >! Be careful that the resin applied is only injected into the indicated notches. Avoid using excess resin that could affect the nut thread.
@@ -75,6 +76,4 @@ Place the [rubber gasket]{qty:1} on the frame of the incubator base. Place the l
 
 
 >! Adjust the length of the clamp by turning it until you achieve a length that allows the incubator to be closed without excessive tension.
-
-
 
