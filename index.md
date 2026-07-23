@@ -2,7 +2,7 @@
 
 ![IncuTEC enclosure around a SQUID microscope](images/example-squid-enclosure.jpg)
 
-![](images/example-squid-enclosure.jpg)
+IncuTEC is a custom thermoelectric microscope incubator with CO₂ control.
 
 ## Quick links
 
